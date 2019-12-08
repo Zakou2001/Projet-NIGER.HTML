@@ -1,0 +1,383 @@
+/********************************************
+Body
+********************************************/
+body{
+	margin:0;
+	background-color:#cbccb4;
+}
+/*******************************
+Premiere baniere
+********************************/
+#baniere {
+	display:block;
+	background-color:#FE9A2E;
+	width:100%;
+	height:40px;
+}
+/********************************
+ Deuxieme baniere 
+ *******************************/
+#baniere2 {
+    display:block;
+	background-color:#217327;
+	width:100%;
+	height:40px;
+}
+
+/*********************************
+ Menu
+ ********************************/
+nav ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	background-color:#ffffff;
+}
+nav li{
+	display: inline-block;
+	padding:0px;
+	margin:0px;
+	width: 11%;
+	height: 40px;
+	border-right: 1px solid #cccccc;
+	text-align: center;
+	line-height:40px;
+}
+nav li:hover {
+	background-color:#217327;
+}
+nav a {
+	text-decoration:none;
+	color:#FE9A2E;
+	display:block;
+}
+nav a:visited {
+  color: #4b2f89;
+}
+/*********************************
+ Index Page d'Accuei 
+ *********************************/
+
+#sousaccueil{
+	width:15%;
+	height:550px;
+	float:left;
+	margin-left:20px;
+	border: 5px solid #DDE1E3;
+}
+#sousaccueil2{
+	width:65%;
+	height:550px;
+	float:right;
+	border: 5px solid #DDE1E3;
+	margin-right:20px;
+}
+
+/********************************
+Paragraphe
+*********************************/
+p{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+/*********************************
+Histoire
+*********************************/
+
+#precolonisation{
+	height:300px;
+	padding:5px;
+	border:2px;
+	background-color:#DDE1E3;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#precolonisationphoto{
+	float:right;
+	width:25%;
+	height:300px;
+}
+#precolonisationtext{
+	float:right;
+	width:60%;
+    padding:15px;
+	height:300px;
+}
+#kountché{
+	height:220px;
+	padding:5px;
+	border:2px;
+	background-color:#DDE1E3;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#kountchéphoto{
+	float:right;
+	width:25%;
+	height:190px;
+}
+#kountchétext{
+	float:right;
+	width:60%;
+    padding:15px;
+	height:190px;
+}
+#ousmane{
+	height:150px;
+	padding:5px;
+	border:2px;
+	background-color:#DDE1E3;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#ousmanephoto{
+	float:right;
+	width:25%;
+	height:150px;
+}
+#ousmanetext{
+	float:right;
+	width:60%;
+    padding:15px;
+	height:150px;
+}
+#bare{
+	height:220px;
+	padding:5px;
+	border:2px;
+	background-color:#DDE1E3;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#barephoto{
+	float:right;
+	width:25%;
+	height:190px;
+}
+#baretext{
+	float:right;
+	width:60%;
+    padding:15px;
+	height:190px;
+}
+#daouda{
+	height:220px;
+	padding:5px;
+	border:2px;
+	background-color:#DDE1E3;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#daoudaphoto{
+	float:right;
+	width:25%;
+	height:190px;
+}
+#daoudatext{
+	float:right;
+	width:60%;
+    padding:15px;
+	height:190px;
+}
+#tandja{
+	height:220px;
+	padding:5px;
+	border:2px;
+	background-color:#DDE1E3;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#tandjaphoto{
+	float:right;
+	width:25%;
+	height:190px;
+}
+#tandjatext{
+	float:right;
+	width:60%;
+    padding:15px;
+	height:190px;
+}
+#salou{
+	height:150px;
+	padding:5px;
+	border:2px;
+	background-color:#DDE1E3;
+}
+#salouphoto{
+	float:right;
+	width:25%;
+    height:150px;
+}
+#saloutext{
+	float:right;
+    width:60%;
+	padding:15px;
+	height:150px;
+}
+#brigi{
+	height:150px;
+	padding:5px;
+	border:2px;
+	background-color:#DDE1E3;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#brigiphoto{
+	float:right;
+	width:25%;
+	height:150px;
+}
+#brigitext{
+	float:right;
+	width:60%;
+    padding:15px;
+	height:150px;
+}
+#seyni{
+	height:200px;
+	padding:5px;
+	border:2px;
+	background-color:#DDE1E3;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#seyniphoto{
+	float:right;
+	width:25%;
+	height:200px;
+}
+#seynitext{
+	float:right;
+	width:60%;
+    padding:15px;
+	height:200px;
+}
+
+/************************************* 
+Politique
+*************************************/
+#politique{
+	background-image: url(https://www.nigerdiaspora.net/images/Zakai_Pnds_Ouallam.jpg);
+	background-size:cover;
+}
+#politique2{
+	background-color:rgba(000,11,00,0.50);
+	margin:10px;
+	color:white;
+}
+/**********************************
+Demographie
+**********************************/
+#photodemo{
+	width:80%;
+	margin-left:10%;
+	margin-top:2%;
+	border: 5px solid #A94B99;
+	height:500px;
+}
+#contenudemo{
+	    width:80%;
+		border: 5px solid #A94B99;
+		margin-left:10%;
+		margin-top:1px;
+		margin-bottom:2%;
+}
+/*********************************
+Geographie 
+**********************************/
+#carte {
+	display:block;
+	width:90%;
+	height:350px;
+	margin-left:5%;
+	margin-top:2%;
+	
+}
+#carte1 {
+	float: left;
+	width:40%;
+	height:350px;
+}
+#carte2 {
+	float: right;
+	width:60%;
+	height:350px;
+}
+/*******************************
+Economie
+*******************************/  
+#eco{
+	width:100%;
+	height:600px;
+	margin-top:15px;
+}
+#eco1{
+	width:40%;
+	margin-left:5%;
+	float:left;
+}
+#eco2{
+	width:40%;
+    margin-right:5%;
+	float:right;
+}
+#baneco1{
+		background-color:#38ADE9;
+}
+#baneco2{
+	background-color:#38ADE9;
+}
+/*******************************
+cultures
+*******************************/
+#cultures{
+	background-image:url(http://www.lisapoyakama.org/wp-content/uploads/2017/02/peul-wadoobe.jpg);
+	background-size:cover;
+	margin:5px;
+}
+#langues{
+	background-color:#423326;
+	color:#ffffff;
+	width:43%;
+	height:auto;
+	margin-left:6%;
+	border: 1px solid #ffffff;
+}
+#religions{
+	background-color:#423326;
+	color:#ffffff;
+	width:43%;
+	height:auto;
+	margin-top:2%;
+	margin-left:51%;
+	border: 1px solid #ffffff;
+}
+#paleontologie{
+	
+	background-color:#423326;
+	color:#ffffff;
+	width:43%;
+	height:auto;
+	margin-left:6%;
+	margin-top:2%;
+	border:1px solid #ffffff;
+}
+#paleontologie a{
+	
+	color:red;
+}
+/*******************************
+ footer
+ *******************************/
+footer{
+	
+	text-align:center;
+	display:block;
+	background-color:#217327;
+	color:white;
+	height:20px;
+}
+
+
