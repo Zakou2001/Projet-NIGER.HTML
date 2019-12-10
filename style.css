@@ -82,6 +82,19 @@ p{
 }
 
 /*********************************
+Bordures Tableaux
+**********************************/
+#tableausubdivisions table, #tableausubdivisions td {
+	border:1px solid black;
+}
+#tableaucultures table, #tableaucultures td {
+	border:1px solid black;
+}
+#tableaucheptel table, #tableaucheptel td {
+	border:1px solid black;
+}
+
+/*********************************
 Histoire
 *********************************/
 
